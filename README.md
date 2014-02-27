@@ -1,3 +1,3 @@
-# surround package
+# surround
 
-A short description of your package.
+A surround plugin for the [Atom](https://atom.io) editor.
