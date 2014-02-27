@@ -4,12 +4,17 @@
   "version": "0.0.0",
   "private": true,
   "description": "A short description of your package",
-  "activationEvents": ["surround:toggle"],
+  "activationEvents": [
+    "surround:surround",
+    "surround:delete"
+  ],
   "repository": "https://github.com/atom/surround",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "underscore": "~1.6.0",
+    "mousetrap": "0.0.1"
   }
 }

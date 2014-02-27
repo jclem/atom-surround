@@ -9,7 +9,8 @@
     'submenu': [
       'label': 'surround'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'surround:toggle' }
+        { 'label': 'surround', 'command': 'surround:surround' },
+        { 'label': 'delete',   'command': 'surround:delete'}
       ]
     ]
   }
